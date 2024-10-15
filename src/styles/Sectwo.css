@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+.sectwo {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .sectwo h1 {
+    color: var(--secondary-color);
+    font-size: var(--font-size-large);
+    font-family: 'Kablammo', cursive;
+  }
+  
+  .sectwo p {
+    font-size: var(--font-size-large);
+    font-family: 'Lovers Quarrel', cursive;
+    margin-top: 10px;
+  }
+  .sectwo a {
+    background-color: var(--secondary-color);
+    padding: 3px; 
+    border-radius: 2px;
+    border: transparent;
+    text-decoration: none;
+    font-family: 'Kablammo', cursive;
+    color: white;
+  }
+  

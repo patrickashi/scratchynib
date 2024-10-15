@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .navbar h1 {
+    color: var(--secondary-color);
+    font-size: var(--font-size-large);
+    font-family: 'Pirata One', cursive;
+  }
+  
+  /* Links for desktop */
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: var(--font-size-small);
+  }
+  
+  .nav-links a:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* Toggle button for mobile */
+  .toggle-button {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  /* Responsive mobile view */
+  @media (max-width: 768px) {
+ 
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: var(--primary-color);
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 60px);
+      justify-content: start;
+     
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+  
+    .nav-links a {
+      /* font-size: 1.5rem; */
+      font-size: var(--font-size-small);
+    }
+  }
+  

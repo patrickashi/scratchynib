@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+.home {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home h1 {
+    color: var(--secondary-color);
+    font-size: var(--font-size-large);
+    font-family: 'Kablammo', cursive;
+  }
+  
+  .home p {
+    font-size: var(--font-size-large);
+    font-family: 'Lovers Quarrel', cursive;
+    margin-top: 10px;
+  }
+  

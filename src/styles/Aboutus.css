@@ -1,0 +1,14 @@
+.aboutus {
+    padding: 2rem;
+  }
+  
+  .aboutus h2 {
+    font-size: var(--font-size-large);
+    color: var(--secondary-color);
+  }
+  
+  .aboutus p {
+    font-size: var(--font-size-medium);
+    line-height: 1.5;
+  }
+  
