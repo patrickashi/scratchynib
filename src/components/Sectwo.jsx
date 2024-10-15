@@ -6,7 +6,9 @@ const Sectwo = () => {
     <div className="sectwo">
       <h1>Welcome to ScratchyNib</h1>
       <p>Explore unique calligraphy styles across a wide variety of font families.</p>
-      <a href='/gallery'>Gallery</a>
+      <div className='gal'>
+        <a href='/gallery'>Gallery</a>
+      </div>
     </div>
   );
 }
