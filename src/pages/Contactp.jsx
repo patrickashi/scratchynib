@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Contact.css';
+import '../index.css';
 
 const Contactp = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -16,7 +16,7 @@ const Contactp = () => {
   };
 
   return (
-    <div className="contact">
+    <div className="pt-20">
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

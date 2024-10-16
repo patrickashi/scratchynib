@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Aboutus.css';
+import '../index.css';
 
 const Aboutp = () => {
   return (
-    <div className="Aboutus">
+    <div className="pt-20">
       <h1>About us</h1>
       <p>About</p>
     </div>

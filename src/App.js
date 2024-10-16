@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '@fontsource/kablammo';       // Kablammo font
+import '@fontsource/lovers-quarrel'; 
 import Homep from "./pages/Homep"
 import Aboutp from './pages/Aboutp';
 import Contactp from './pages/Contactp';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import './styles/App.css';
+import './index.css';
 import Galleryp from './pages/Galleryp';
 
 function App() {

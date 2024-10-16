@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Gallery.css';
+import '../index.css';
 
 
 const Galleryp = () => {
   return (
-    <div className='gallery'>
+    <div className='pt-20'>
         <h1>Gallery</h1>
     </div>
   );
